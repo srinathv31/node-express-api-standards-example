@@ -1,4 +1,4 @@
-import { wait } from "../../../utils/utils";
+import { wait } from "../../../../utils/utils";
 import { User } from "./user.model";
 
 export async function getUser() {

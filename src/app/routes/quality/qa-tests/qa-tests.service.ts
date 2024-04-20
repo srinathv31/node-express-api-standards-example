@@ -1,4 +1,4 @@
-import { wait } from "../../../utils/utils";
+import { wait } from "../../../../utils/utils";
 import { QATest } from "./qa-tests.model";
 
 export async function getTests() {
