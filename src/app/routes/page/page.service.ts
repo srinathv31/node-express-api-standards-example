@@ -24,7 +24,7 @@ export async function searchPage(pageTitle: string) {
   return response;
 }
 
-export async function createDatabasePage(databaseId: string, params: any) {
+export async function createDatabasePage(databaseId: string, _params: any) {
   const response = await notion.pages.create({
     cover: {
       type: "external",

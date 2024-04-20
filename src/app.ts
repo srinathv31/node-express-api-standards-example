@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import express from "express";
 import cors from "cors";
 import * as bodyParser from "body-parser";
@@ -24,7 +25,7 @@ app.use(
     err: Error | HttpException,
     req: express.Request,
     res: express.Response,
-    next: express.NextFunction,
+    _next: express.NextFunction,
   ) => {
     // @ts-ignore
     if (err && err.name === "UnauthorizedError") {
